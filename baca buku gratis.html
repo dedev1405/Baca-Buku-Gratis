@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Buku Sekolah Dasar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #3498db;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .book {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: calc(33% - 20px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .book:hover {
+            transform: scale(1.05);
+        }
+        .book img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .book h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .book p {
+            margin: 5px 0;
+        }
+        .price {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background: #3498db;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Toko Buku Sekolah Dasar</h1>
+        <p>Temukan buku terbaik untuk anak-anak Anda!</p>
+    </header>
+
+    <div class="container">
+        <div class="book">
+            <img src="Matematika-BS-KLS-I-cover.png" alt="Buku Matematika untuk SD/MI Kelas I">
+            <h3>Buku Matematika Kelas 1</h3>
+            <p>Penulis: Dara Retno Wulan, Rasfaniwaty</p>
+            <p class="price">Rp 20.000</p>
+            <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Matematika-BS-KLS-I.pdf">
+                <button>Baca Sekarang</button>
+            </a>
+        </div>
+        <div class="book">
+            <img src="Bahasa_Indonesia_BS_KLS_I_Rev_Cover.png" alt="Buku Bahasa Indonesia: Aku Bisa! untuk SD/MI Kelas I">
+            <h3>Buku Bahasa Indonesia: Aku Bisa! untuk SD/MI Kelas I</h3>
+            <p>Penulis: Sofie Dewayani</p>
+            <p class="price">Rp 20.000</p>
+            <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Bahasa_Indonesia_BS_KLS_I.pdf">
+                <button>Baca Sekarang</button>
+            </a>
+        </div>
+        <div class="book">
+            <img src="Bahasa-Inggris-BS-KLS-I-Cover.png" alt="My Next Words Grade 1 - Student's Book for Elementary School">
+            <h3>Buku Bahasa Inggris Kelas 1</h3>
+            <p>Penulis: Lala Intan Gemala, Heni Dwi Utami, Ulin Farichah</p>
+            <p class="price">Rp 20.000</p>
+            <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Bahasa-Inggris-BS-KLS-I.pdf">
+                <button>Baca Sekarang</button>
+            </a>
+        </div>
+        <div class="book">
+            <img src="Pendidikan-Pancasila-BS-KLS-I-Cover.png" alt="Pendidikan Pancasila untuk SD/MI Kelas I">
+            <h3>Buku Pendidikan Pancasila Kelas 1</h3>
+            <p>Penulis: Canny Ilmiati, Etika Indah Febriani, Elisa Seftriyana</p>
+            <p class="price">Rp 20.000</p>
+            <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Pendidikan-Pancasila-BS-KLS-I.pdf">
+                <button>Baca Sekarang</button>
+            </a>
+        </div>
+        <div class="book">
+            <img src="Islam-BS-KLS-I-Cover.png" alt="Pendidikan Agama Islam dan Budi Pekerti untuk SD Kelas I">
+            <h3>Buku Pendidikan Agama Islam dan Budi Pekerti untuk SD Kelas I</h3>
+            <p>Penulis: Muhammad Nurzakun, Joko Santoso</p>
+            <p class="price">Rp 20.000</p>
+            <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Islam-BS-KLS-I.pdf">
+                <button>Baca Sekarang</button>
+            </a>
+        </div>
+        <div class="book">
+            <img src="Kepercayaan-BS-KLS-I-Cover.png" alt="Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa dan Budi Pekerti untuk SD Kelas I">
+            <h3>Buku Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa dan Budi Pekerti untuk SD Kelas I</h3>
+            <p>Penulis: Ade Witarsa</p>
+            <p class="price">Rp 20.000</p>
+            <a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Kepercayaan-BS-KLS-I.pdf">
+                <button>Baca Sekarang</button>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Toko Buku Sekolah Dasar</p>
+    </footer>
+
+</body>
+</html>
